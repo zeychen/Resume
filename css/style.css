@@ -1,0 +1,85 @@
+/******************************* Generic ********************************/
+body, html {
+	color: #2d3c49;
+	text-transform: uppercase;
+	font-family: 'Quicksand', 'Open-sans', sans-serif !important;
+	margin-bottom: 50px;
+}
+
+.nopadding, .container, .col-xs-2, .col-xs-10, .col-xs-12 {
+	padding: 0px !important;
+}
+.nomargin {
+	margin: 0px !important;
+}
+.col-md-4{
+	margin-bottom: 50px;
+}
+/******************************* Header ********************************/
+header {
+	border-bottom: 5px solid #7d97ad;
+}
+
+.row {
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+}
+
+#logo {
+	margin-top: 40px;
+}
+
+#name {
+	font-size: 60px !important;
+	margin-top:40px;
+	text-align: right;
+}
+
+#title {
+	margin: 5px 0px 25px 0px;
+	font-weight: bold;
+	text-align: right;
+}
+
+/******************************* Header ********************************/
+.navbar {
+	padding-top: 20px;
+}
+
+/******************************* Main ********************************/
+#main-container {
+	font-family: 'Open-sans', sans-serif !important;
+}
+
+#featured-work {
+	color: #777;
+	text-transform: capitalize;
+	padding-left: 15px;
+}
+
+.featured-image {
+	margin: 30px 0px 15px 0px;
+}
+
+.featured {
+	text-align: center;
+}
+
+a {
+	text-decoration: none !important;
+	font-size: 1.5em;
+	cursor: pointer;
+	color: #2d3c49 !important;
+}
+
+/******************************* Responsive ********************************/
+@media screen and (max-width: 750px) {
+	.col-xs-12, #logo {
+		padding-right: 12px !important;
+		padding-left: 12px !important;
+	}
+	.container {
+		margin-right: 0px !important;
+		margin-left: 0px !important;
+	}
+}
